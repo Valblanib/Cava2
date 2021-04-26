@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cava Test">
+    <listeners>
+        <listener class-name="main.java.Utils.ListSuit"/>
+    </listeners>
+    <test name="Cava Automation">
+        <parameter name="browserName" value="chrome">
+            <classes>
+                <class name="test.java.CavaTest"></class>
+            </classes>
+        </parameter>
+    </test>
+</suite>
